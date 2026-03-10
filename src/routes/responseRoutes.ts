@@ -3,7 +3,7 @@ import {
   initFormResponse,
   autoSaveDraft,
   submitForm,
-} from "../controllers/responseController.js";
+} from "../controllers/postgres/responseController.js";
 import { validate } from "../middleware/validate.js";
 import {
   initFormResponseSchema,
